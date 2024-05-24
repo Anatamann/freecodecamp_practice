@@ -1,6 +1,6 @@
 --
 -- PostgreSQL database dump
---
+--DATA stored are random and not accurate don't use in real projects
 
 -- Dumped from database version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 -- Dumped by pg_dump version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
