@@ -59,8 +59,8 @@ QUERY(){
 ATOMIC_NO=$($PSQL "SELECT atomic_number FROM elements WHERE atomic_number=1000")
 if [[ -n $ATOMIC_NO ]]
 then
-  $PSQL "DELETE FROM properties WHERE atomic_number=1000" 
-  $PSQL "DELETE FROM elements WHERE atomic_number=1000" 
+  $PSQL "DELETE FROM properties WHERE atomic_number=1000" 1> success_log.txt
+  $PSQL "DELETE FROM elements WHERE atomic_number=1000" 1> success_log.txt
 fi
 
 #argument checking logic
